@@ -34,7 +34,7 @@ public class Program {
 		}
 		System.out.println("Quantidade de arq=" + i);
 		System.out.println(
-				"\n====================================DepartmentFindById==========================================================");
+				"\n====================================FindAll==========================================================");
 
 		seller2 = dao.findAll();
 
@@ -45,7 +45,7 @@ public class Program {
 		System.out.println("Quantidade de arq=" + i2);
 
 		System.out.println(
-				"\n====================================IndertSeller==========================================================");
+				"\n====================================InsertSeller==========================================================");
 		Departments dep = new Departments(2, null);
 		// Seller seller3= new Seller(null, "Atadolpho","Ata@gmail.com", new Date()
 		// ,12.000 ,obj2);
